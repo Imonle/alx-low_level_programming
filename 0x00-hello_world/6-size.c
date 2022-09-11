@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Starting point
- * Description:This program prints sizes of various data types
+ * Description:Prints sizes of various data types
  * Return:Always 0
  */
 int main(void)
