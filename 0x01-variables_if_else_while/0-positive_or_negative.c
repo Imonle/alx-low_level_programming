@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /* This program assign a random number to n each time it is executed */
 
 int main(void)
