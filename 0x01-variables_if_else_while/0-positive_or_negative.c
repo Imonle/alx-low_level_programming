@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /**
- *This program assign a random number to n each time it is executed.
- * main - Starting point.
+ * main - Determines if a number is positive, negative or zero
+ *
  * Return:0 if successful
  */
 int main(void)
