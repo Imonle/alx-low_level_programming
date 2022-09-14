@@ -6,10 +6,13 @@
  */
 int main(void)
 {
-	int c;
+	char c = "_putchar";
 
-	c = _putchar;
-	putchar("c");
-	putchar("\n");
+	while (c)
+	{
+		_putchar(c);
+		c++;
+	}
+	_putchar('\n');
 	return (0);
 }
