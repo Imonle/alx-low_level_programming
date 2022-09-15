@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * Print_alphabet_x10 - Prints lowercase x10
+ * print_alphabet_x10 - Prints lowercase x10
  *
  * Return: 0 always
  */
