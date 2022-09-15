@@ -1,0 +1,10 @@
+#include "main.h"
+
+/**
+ * main - Prints alphabet in lowercase
+ * Return:0 if successful
+ */
+int maon(void)
+{
+	
+}
