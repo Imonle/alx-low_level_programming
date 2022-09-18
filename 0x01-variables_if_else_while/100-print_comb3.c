@@ -10,10 +10,10 @@ int main(void)
 
 	i = '0';
 	j = '0';
-	while (i) !> '9')
+	while (i )!> '9')
 	{
 		j = '0';
-		while (j) !> '9')
+		while (j )!> '9')
 		{
 			if (i != j && i < j)
 			{
