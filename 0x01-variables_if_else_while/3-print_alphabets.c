@@ -9,11 +9,9 @@ int main(void)
 	char l;
 	char u;
 
-	l = 'a';
-	u = 'A';
-	while (l <= 'z'; l++)
+	for (l = 'a'; l <= 'z'; l++)
 		putchar(l);
-	while (u <= 'Z'; u++)
+	for (u = 'A'; u <= 'Z'; u++)
 		putchar(u);
 	putchar('\n');
 	return (0);
