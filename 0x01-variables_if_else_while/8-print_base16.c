@@ -11,16 +11,16 @@ int main(void)
 
 	d = 0;
 	while (d <= 9)
-
+{
 	putchar(d);
 	d++;
-
+}
 	l = 'a';
 	while (l <= 'f')
-
+{
 	putchar(l);
 	l++;
-
+}
 	putchar('\n');
 	return (0);
 }
