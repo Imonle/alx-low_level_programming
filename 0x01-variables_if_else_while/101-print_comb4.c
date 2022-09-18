@@ -14,25 +14,28 @@ int main(void)
 	while (i <= '9')
 	{
 		j = '0';
-		k = '1';
 		while (j <= '9')
 		{
-			if (i != j && i < j && j < k)
+			k = '0';
+			while (k <= '9')
 			{
-				putchar(j);
-				putchar(i);
-				putchar(k);
-				if (k == '9' && i == '8' && j == '7')
+				if (i != j && i != k && j != k && i < j && j < k)
 				{
-					break;
+					putchar(i);
+					putchar(j);
+					putchar(k);
+					if (k == '9' && j == '8' && i == '7')
+					{
+						break;
+					}
+					putchar(',');
+					putchar(' ');
 				}
-				putchar(',');
-				putchar(' ');
+				k++;
 			}
-			i++;
+			j++;
 		}
-		j++;
-		k++;
+		i++;
 	}
 	putchar('\n');
 	return (0);
