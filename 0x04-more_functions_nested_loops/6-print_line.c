@@ -2,7 +2,8 @@
 
 /**
  * print_line - Prints a straight line
- * Return: 0
+ * @n: Input number of times to print '___'
+ * Return: a straight line
  */
 
 void print_line(int n)
